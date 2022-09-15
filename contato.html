@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="./css/style.css" rel="preload" as="style">
   <link href="./css/style.css" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body id="contato">
@@ -42,7 +43,7 @@
 
     </div>
     <div class="contato container">
-      <section class="contato-dados" aria-label="Endereço">
+      <section class="contato-dados fadeInDown" aria-label="Endereço" data-anime="200">
         <h2 class="font-1-m cor-0">Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
           <p>Rua Ali perto, 35</p>
@@ -66,7 +67,7 @@
           </a>
         </div>
       </section>
-      <section class="contato-formulario" aria-label="Formulário">
+      <section class="contato-formulario fadeInUp" aria-label="Formulário" data-anime="400">
         <form class="form" action="./contato.html">
           <div>
             <label for="nome">Nome</label>
@@ -166,6 +167,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
